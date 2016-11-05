@@ -16,7 +16,7 @@ group :development, :production, :test do
   gem 'httparty'
 end
 
-group :development do
+group :development, :production do
   gem 'listen', '~> 3.0.5'
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
