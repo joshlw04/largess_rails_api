@@ -31,7 +31,7 @@ class Api::V1::UsersController < ApplicationController
  private
 
  def user_params
-   params.require(:user).permit(:first_name, :last_name, :email, :total_clicks, :cost_per_click, :payment_type, :payment_last_four, :charity_id, :firebase_uid)
+   params.require(:user).permit(:first_name, :last_name, :email, :total_clicks, :cost_per_click, :payment_type, :payment_last_four, :charity_id, :firebase_uid, :stripe_id, :last_four, :credit_type)
  end
 
 end
