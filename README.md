@@ -1,24 +1,14 @@
-# README
+#Largess
+##Rails API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+###Routes:
+- /v1/api/charities
+http://largress-api.herokuapp.com/api/v1/charities
 
-Things you may want to cover:
+- /v1/api/users
+http://largress-api.herokuapp.com/api/v1/users
 
-* Ruby version
+- /v1/api/clicks
+http://largress-api.herokuapp.com/api/v1/clicks
 
-* System dependencies
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
